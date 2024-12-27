@@ -1,0 +1,2 @@
+# Запуск скрипта каждый час
+0 * * * * /path/to/project/run_uploader.sh >> /path/to/project/logs/cron.log 2>&1 
