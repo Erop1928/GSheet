@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -35,11 +34,14 @@ ENV/
 logs/
 *.log
 
-# Environment variables
+# Environment variables and credentials
 .env
-
-# Google API credentials
 fair-root-445807-i5-aa2407460343.json
 
-# Project specific
-test_output.txt 
+# Test files
+tests/
+test_*.py
+test_*.txt
+
+# Old files
+sheets.py 
